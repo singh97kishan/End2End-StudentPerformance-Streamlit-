@@ -34,7 +34,7 @@ pred_df= CustomData(
     input_reading_score,
     input_writing_score
     ).get_data_as_dataframe()
-print(pred_df)
+
 def predict_datapoint(df):
     try:
         predict_pipeline = PredictPipeline()
